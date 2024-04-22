@@ -1,11 +1,11 @@
 import ImageWithTextComponent from "@/sharedComponents/ImageWithTextComponent";
 import React from "react";
-import Check from "@/assets/check-circle.svg";
+import Download from "@/assets/download.svg";
 export default function Section2() {
   return (
     <div className="flex flex-row bg-white p-12">
       <ImageWithTextComponent
-        image={Check}
+        image={Download}
         imgHeight={34}
         imgWidth={34}
         headText={"Lower Cost of Ownership"}
@@ -14,7 +14,7 @@ export default function Section2() {
         }
       />
       <ImageWithTextComponent
-        image={Check}
+        image={Download}
         imgHeight={34}
         imgWidth={34}
         headText={"Higher Agent Occupancy"}
@@ -23,7 +23,7 @@ export default function Section2() {
         }
       />
       <ImageWithTextComponent
-        image={Check}
+        image={Download}
         imgHeight={34}
         imgWidth={34}
         headText={"First Contact Resolution"}

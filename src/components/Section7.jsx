@@ -2,7 +2,7 @@ import ImageWithTextComponent from "@/sharedComponents/ImageWithTextComponent";
 import React from "react";
 import Image from "next/image";
 import Content from "@/assets/content.svg";
-import Check from "@/assets/check-circle.svg";
+import Check from "@/assets/check-circle-bg.svg";
 export default function Section7() {
   return (
     <section className="flex flex-row p-12">
